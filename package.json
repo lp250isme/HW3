@@ -1,0 +1,17 @@
+{
+  "name": "nodejs_http",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "react": "^17.0.2"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "build": "babel src -d lib"
+  }
+}
